@@ -30,9 +30,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'unicorn'
 
 group :development do
-  gem "better_errors"
+  gem 'better_errors'
   gem 'hirb'
-  gem 'jazz_hands'
+  gem 'jazz_hands', github: 'nixme/jazz_hands', branch: 'bring-your-own-debugger'
   gem 'faker'
 end
 
